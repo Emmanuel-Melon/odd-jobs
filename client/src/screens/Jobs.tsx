@@ -63,6 +63,7 @@ export default function Jobs(props: JobsProps) {
     else setJobs(jobs);
   };
 
+ 
   const addJob = async () => {
     let taskText = jobTitle;
     let task = taskText.trim();

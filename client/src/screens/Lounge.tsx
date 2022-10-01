@@ -16,6 +16,17 @@ import {
 //import Messages from '../components/Messages';
 //import Job from '../components/Job'
 import { Chat } from "../components/Chat";
+// import { Storage } from "@aws-amplify/storage"
+
+// async function store(){
+//   try {
+//     const result = await Storage.put('test.txt', 'Hello World');
+//     console.log(result);
+//   }catch (err) {
+//     console.log('error: ', err);
+//   }
+// }
+// await Storage.put("test.txt", "Hello");
 
 
 const Proposal = ({ proposal }) => {

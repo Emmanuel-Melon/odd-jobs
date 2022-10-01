@@ -69,7 +69,10 @@ const Auth = () => {
 
     return (
         <Stack sx={{ justifyContent:"center", alignItems:"center", mt:5}}>
+            <Stack gap={2} direction="row" sx={{ justifyContent:"center", alignItems:"center"}}>
+            <img src="https://res.cloudinary.com/dwacr3zpp/image/upload/v1664580358/inspirers/avatars/icons8-omega.svg" alt="Omega" width="40" height="40"/>
             <Typography variant="h4" sx={{alignItems:"center"}}>Odd jobs</Typography>
+            </Stack>
         <Grid container sx={{ justifyContent:"center", alignItems:"center", mt:3 }}>
             <Card sx={{p:4}}>
             <TabContext value={value}>
@@ -111,7 +114,7 @@ const Auth = () => {
                     sx={{ bgcolor: "#7c6ea7" }}
                         variant="contained"
                         onClick={() =>
-                            handleLogin("REGISTER").catch(console.error)
+                            handleLogin("LOGIN").catch(console.error)
                         }
                     >Login</Button>
                 </Stack>

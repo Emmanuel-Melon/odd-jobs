@@ -11,7 +11,6 @@ import {
 import SearchIcon from '@mui/icons-material/Search';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import { styled, alpha } from '@mui/material/styles';
-import GrassIcon from '@mui/icons-material/Grass';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -65,9 +64,8 @@ export default function Header(){
       <Box sx={{ flexGrow: 1 }}>
       <AppBar sx={{bgcolor: '#7c6ea7', justifyContent: 'center', height: 80}} position="sticky">
         <Toolbar variant="dense">
-          <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
-          <GrassIcon color="disabled" fontSize="large"/>
-          <link rel="stylesheet" href="icons8-coin-67.png" />
+          <IconButton edge="start" color="inherit" aria-label="menu" sx={{}}>
+          <img src="https://res.cloudinary.com/dwacr3zpp/image/upload/v1664581736/inspirers/avatars/icons8-omega_3.svg" alt="Omega" width="40" height="30"/>
           </IconButton>
         <Typography variant="h6" color="inherit" component="div" sx={{ flexGrow: 1 }}>
           ODD JOBS

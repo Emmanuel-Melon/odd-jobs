@@ -170,7 +170,7 @@ const Job: FC<JobProps> = (props) => {
           </CardActions>
         </Card>
       </Stack>
-      <Stack>
+      {/* <Stack>
         <Popper id={id} open={opun} anchorEl={anchorEl} placement={placement} transition>
           {({ TransitionProps }) => (
             <Fade {...TransitionProps} timeout={350}>
@@ -189,7 +189,7 @@ const Job: FC<JobProps> = (props) => {
             </Fade>
           )}
         </Popper>
-      </Stack>
+      </Stack> */}
       {/* <Stack>
     <Fade in={checked}>
       {expan()}

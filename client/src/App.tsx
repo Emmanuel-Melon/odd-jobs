@@ -5,6 +5,9 @@ import Nav from './components/Nav';
 import Header from './components/Header';
 import './index.css';
 import Auth from "./components/Auth";
+// import { Amplify, Auth } from 'aws-amplify';
+// import awsconfig from './aws-exports';
+// Amplify.configure(awsconfig);
 
 export default function App() {
   const [user, setUser] = useState(null);

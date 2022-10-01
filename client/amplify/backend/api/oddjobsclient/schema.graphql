@@ -1,0 +1,9 @@
+type Jobs @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  username: String
+  title: String
+  description: String
+  amount: Int
+  status: Boolean
+  created_at: AWSTimestamp
+}
